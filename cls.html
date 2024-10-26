@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage Examples</title>
+</head>
+
+<body>
+    <h1>Web Storage Demo</h1>
+
+    <h2>Cookies</h2>
+    <button onclick="setCookie()">Set Cookie</button>
+    <button onclick="getCookie()">Get Cookie</button>
+    <button onclick="deleteCookie()">Delete Cookie</button>
+
+    <h2>Local Storage</h2>
+    <button onclick="setLocalStorage()">Set Local Storage</button>
+    <button onclick="getLocalStorage()">Get Local Storage</button>
+    <button onclick="clearLocalStorage()">Clear Local Storage</button>
+
+    <h2>Session Storage</h2>
+    <button onclick="setSessionStorage()">Set Session Storage</button>
+    <button onclick="getSessionStorage()">Get Session Storage</button>
+    <button onclick="clearSessionStorage()">Clear Session Storage</button>
+
+    <script>
+        // Cookie Functions
+        function setCookie() {
+            document.cookie = "username=JohnDoe; expires=Thu, 31 Dec 2024 12:00:00 UTC; path=/";
+            alert("Cookie set: username=JohnDoe");
+        }
+
+        function getCookie() {
+            alert("Cookies: " + document.cookie);
+        }
+
+        function deleteCookie() {
+            document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+            alert("Cookie deleted");
+        }
+
+        // Local Storage Functions
+        function setLocalStorage() {
+            localStorage.setItem("username", "JohnDoe");
+            alert("Local Storage set: username=JohnDoe");
+        }
+
+        function getLocalStorage() {
+            alert("Local Storage username: " + localStorage.getItem("username"));
+        }
+
+        function clearLocalStorage() {
+            localStorage.removeItem("username");
+            alert("Local Storage cleared");
+        }
+
+        // Session Storage Functions
+        function setSessionStorage() {
+            sessionStorage.setItem("username", "JohnDoe");
+            alert("Session Storage set: username=JohnDoe");
+        }
+
+        function getSessionStorage() {
+            alert("Session Storage username: " + sessionStorage.getItem("username"));
+        }
+
+        function clearSessionStorage() {
+            sessionStorage.removeItem("username");
+            alert("Session Storage cleared");
+        }
+    </script>
+</body>
+
+</html>
