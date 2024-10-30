@@ -19,6 +19,7 @@ console.log(sayGoodbye("Bob"));
 function square(num) {
     return num * num;
 }
+console.log(square(5));
 
 // Converted to Arrow Function
 const squareArrow = (num) => num * num;
