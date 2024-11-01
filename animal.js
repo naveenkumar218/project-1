@@ -1,5 +1,3 @@
-// animalUtils.js
-
 // Export Animal class
 export class Animal {
     constructor(name, sound) {
