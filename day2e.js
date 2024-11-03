@@ -59,7 +59,7 @@ function bigSpenderDiscount(total) {
 
 console.log("Total for Big Spender:", conditionalDiscount(shoppingCart, bigSpenderDiscount));
 
-
+    
 // 5. Closures
 
 // Closure to keep track of total items added to the cart
