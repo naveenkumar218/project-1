@@ -1,0 +1,27 @@
+Basic Editing Shortcuts
+Ctrl + C: Copy selected text.
+Ctrl + X: Cut selected text.
+Ctrl + V: Paste copied/cut text.
+Ctrl + Z: Undo the last action.
+Ctrl + Y: Redo the last undone action.
+Ctrl + A: Select all text in the current document.
+Ctrl + F: Open the Find dialog to search for text in the document.
+Ctrl + H: Open the Replace dialog to replace text.
+Navigation Shortcuts
+Ctrl + G: Go to a specific line in the current document.
+Ctrl + Tab: Switch between open documents.
+Ctrl + - (Minus): Navigate to the previous location in the code.
+Ctrl + Shift + - (Minus): Navigate to the next location in the code.
+Ctrl + Shift + F: Search for a text string in all files in the solution.
+Code Editing Shortcuts
+Ctrl + K, Ctrl + D: Format the document.
+Ctrl + K, Ctrl + C: Comment selected lines of code.
+Ctrl + K, Ctrl + U: Uncomment selected lines of code.
+F12: Go to the definition of a selected symbol (e.g., function, variable).
+Ctrl + . (Period): Show the Quick Actions and Refactorings menu for the selected code.
+Debugging Shortcuts
+F5: Start debugging the application.
+Shift + F5: Stop debugging.
+Additional Shortcuts
+Ctrl + Shift + B: Build the solution.
+Ctrl + R, Ctrl + R: Rename the selected variable, method, or class.
