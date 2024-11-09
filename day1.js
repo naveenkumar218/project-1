@@ -27,4 +27,4 @@ if (averageScore >= 90) {
 console.log("Total Score:", totalScore);
 console.log("Average Score:", averageScore.toFixed(2));
 console.log("Grade:", grade);
-console.log("Grade:", grade);
+
